@@ -1,0 +1,2 @@
+[console_scripts]
+best_hashtags = best_hashtags:main

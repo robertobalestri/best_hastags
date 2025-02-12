@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/best_hashtags.egg-info/PKG-INFO
+src/best_hashtags.egg-info/SOURCES.txt
+src/best_hashtags.egg-info/dependency_links.txt
+src/best_hashtags.egg-info/entry_points.txt
+src/best_hashtags.egg-info/requires.txt
+src/best_hashtags.egg-info/top_level.txt
