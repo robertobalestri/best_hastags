@@ -1,8 +1,3 @@
-robertobalestri: @workspace write a good readme, don't talk abotu scrape, tal kabout getting best hastags for a given word, and add a little usage example
-
-Workspace: Collecting workspace informationHere is an improved README.md:
-
-```md
 # Best Hashtags
 
 Best Hashtags is a Python tool that helps you find the best hashtags for a given word. It retrieves popular hashtags from the website `https://best-hashtags.com/hashtag/{search_word}/`.
@@ -138,4 +133,3 @@ This will print the top 30 hashtags related to the word "music".
 ## License
 
 This project is licensed under the MIT License.
-```
