@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: best-hashtags
+Version: 0.1.1
+Summary: A tool to find the best hashtags for a given word
+Home-page: https://github.com/robertobalestri/best_hashtags
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 # 📈 Best Hashtags
 
 **Best Hashtags** is a Python tool that helps you find the most popular hashtags for a given word. It’s perfect for content creators, marketers, and social media enthusiasts looking to boost their reach with relevant hashtags.
@@ -31,6 +44,7 @@ This will display the top 30 hashtags related to **"music"**.
 ### Example 2: Using in Python Scripts
 
 ```bash
+
 from best_hashtags import BestHashtags
 
 # Initialize the BestHashtags class
@@ -41,6 +55,7 @@ hashtags = hashtag_finder.get_hashtags('music', quantity=30, ordered=True)
 
 # Display the results
 print(hashtags)
+
 ```
 
 ## 📄 License
