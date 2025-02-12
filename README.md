@@ -1,135 +1,50 @@
-# Best Hashtags
+# 📈 Best Hashtags
 
-Best Hashtags is a Python tool that helps you find the best hashtags for a given word. It retrieves popular hashtags from the website `https://best-hashtags.com/hashtag/{search_word}/`.
+**Best Hashtags** is a Python tool that helps you find the most popular hashtags for a given word. It’s perfect for content creators, marketers, and social media enthusiasts looking to boost their reach with relevant hashtags.
 
-## Features
+## 🚀 Features
 
-- Retrieve top hashtags for any given word.
-- Option to get a specific number of hashtags.
-- Option to get hashtags in a random order.
+- **Retrieve Top Hashtags**: Instantly find the most popular hashtags for any keyword.
+- **Customizable Results**: Get a specific number of hashtags based on your needs.
+- **Randomized Option**: Shuffle the hashtags for more variety.
 
-## Installation
+## ⚙️ Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/robertobalestri/best_hashtags.git
-   cd best_hashtags
-   ```
+You can install **Best Hashtags** in two ways:
 
-2. **Create a Python virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
+### 1️⃣ Install via PyPI (Recommended)
 
-3. **Activate the virtual environment**:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+The easiest way to get started is by installing the package from [PyPI](https://pypi.org/project/best-hashtags/0.1.0/):
 
-4. **Install the required packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```pip install best-hashtags```
 
-## Usage
+## 💡 Usage
 
-To get the best hashtags for a given word, you can use the following command:
+You can use **Best Hashtags** directly in your Python code.
 
-```bash
-python src/best_hashtags.py <search_word>
-```
+### Example 1: Using from the Command Line
 
-Replace `<search_word>` with the word you want to search for hashtags.
+```python src/best_hashtags.py music```
 
-### Example
+This will display the top 30 hashtags related to **"music"**.
 
-```bash
-python src/best_hashtags.py music
-```
+### Example 2: Using in Python Scripts
 
-This will print the top 30 hashtags related to the word "music".
+```from best_hashtags import BestHashtags
 
-## Dependencies
+# Initialize the BestHashtags class
+hashtag_finder = BestHashtags()
 
-- `requests`: For making HTTP requests.
-- `beautifulsoup4`: For parsing HTML content.
+# Search for hashtags related to "music"
+hashtags = hashtag_finder.get_hashtags('music', quantity=30, ordered=True)
 
-## License
+# Display the results
+print(hashtags)```
 
-This project is licensed under the MIT License.
-```
+## 📄 License
 
-robertobalestri: ok, modify the file
+This project is licensed under the [MIT License](LICENSE).
 
-GitHub Copilot: Sure, here is the updated README.md file:
+---
 
-```markdown
-# Best Hashtags
-
-Best Hashtags is a Python tool that helps you find the best hashtags for a given word. It retrieves popular hashtags from the website `https://best-hashtags.com/hashtag/{search_word}/`.
-
-## Features
-
-- Retrieve top hashtags for any given word.
-- Option to get a specific number of hashtags.
-- Option to get hashtags in a random order.
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/robertobalestri/best_hashtags.git
-   cd best_hashtags
-   ```
-
-2. **Create a Python virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
-
-3. **Activate the virtual environment**:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. **Install the required packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-To get the best hashtags for a given word, you can use the following command:
-
-```bash
-python src/best_hashtags.py <search_word>
-```
-
-Replace `<search_word>` with the word you want to search for hashtags.
-
-### Example
-
-```bash
-python src/best_hashtags.py music
-```
-
-This will print the top 30 hashtags related to the word "music".
-
-## Dependencies
-
-- `requests`: For making HTTP requests.
-- `beautifulsoup4`: For parsing HTML content.
-
-## License
-
-This project is licensed under the MIT License.
+💡 *Contributions and feedback are always welcome!*
